@@ -2,7 +2,7 @@ const yesBtn = document.getElementById('yesBtn');
 const noBtn = document.getElementById('noBtn');
 
 yesBtn.addEventListener('click', () => {
-  alert('¡Yo también te quiero, Claudia! ❤️');
+  alert('¡Te Amo mucho, Claudia! ❤️');
 });
 
 noBtn.addEventListener('mouseover', () => {
