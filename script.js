@@ -1,8 +1,13 @@
 const yesBtn = document.getElementById('yesBtn');
 const noBtn = document.getElementById('noBtn');
+const container = document.querySelector('.container');
 
 yesBtn.addEventListener('click', () => {
-  alert('¡Te Amo mucho, Claudia! ❤️');
+  // Limpia el contenido de la página
+  container.innerHTML = `
+    <h1>¡Te Amo Mucho, Claudia! 💋</h1>
+    <img src="besos.gif" alt="Beso para Claudia" />
+  `;
 });
 
 noBtn.addEventListener('mouseover', () => {
@@ -12,3 +17,4 @@ noBtn.addEventListener('mouseover', () => {
   noBtn.style.left = `${x}px`;
   noBtn.style.top = `${y}px`;
 });
+
