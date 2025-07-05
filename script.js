@@ -6,7 +6,7 @@ yesBtn.addEventListener('click', () => {
   // Limpia el contenido de la página
   container.innerHTML = `
     <h1>¡Te Amo Mucho, Claudia! 💋</h1>
-    <img src="besos.gif" alt="Beso para Claudia" />
+    <img src="besos.gif" alt="Besos" />
   `;
 });
 
